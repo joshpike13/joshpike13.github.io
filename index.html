@@ -7,20 +7,6 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-
-    <style>
-    	.fixed-column {
-    		-ms-flex: 0 0 230px;
-    		flex: 0 0 230px;
-    		background-color: greenyellow; 
-			} 
-
-			@media (max-width: 690px) {
-  			.fixed-column {
-    		display: none; 
-  			} 
-			}			
-  	</style>
   </head>
 	<body>
 		<div class="jumbotron">
@@ -60,18 +46,20 @@
 			<h5 class="display-5 text-center">Advisors</h3>
 			<div class="container">
 				<div class="row">
-					<div class="col-md-2 fixed-column">
+					<div class="col-md-2"></div>
+					<div class="col-md-4">
 						<div class="card">
 							<img data-src="tin.jpg" alt="Tin Nguyen" style="height:280px; width:100%; display:block;" src="tin.jpg">
 							<p class="card-text">Tin Nguyen</p>
 						</div>
 					</div>
-					<div class="col-md-2 fixed-column">
+					<div class="col-md-4">
 						<div class="card">
 							<img data-src="sergiu.jpg" alt="Sergiu Dascalu" style="height:280px; width:100%; display:block;" src="sergiu.jpg">
 							<p class="card-text">Sergiu Dascalu</p>
 						</div>
 					</div>
+					<div class="col-md-2"></div>
 				</div>
 			</div>
 		</div>
